@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../aisha"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aruuke"
+	}
+}

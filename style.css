@@ -1,0 +1,1055 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header_top {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+nav {
+  font-family: Poppins;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  color: black;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav_btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_btns button {
+  background-color: #656293;
+  color: white;
+  width: 93px;
+  height: 31px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: 400;
+
+  font-size: 66px;
+}
+
+h1 span {
+  color: #656293;
+}
+
+.explore {
+  font-size: 16px;
+  margin-top: 50px;
+  display: flex;
+  column-gap: 9px;
+}
+
+.hero_flex {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_bottom {
+  height: 300px;
+}
+
+.booking {
+  background: #ffffff;
+  position: relative;
+  bottom: 100px;
+  height: 306px;
+  width: 1110px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.37);
+}
+
+.booking_text {
+  font-size: 14px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  ::after {
+    content: "▼";
+  }
+}
+
+.booking_cards {
+  margin-top: 24px;
+  display: flex;
+  gap: 30px;
+}
+
+.booking_card {
+  font-family: Roboto;
+  padding: 20px;
+  width: 300px;
+  height: 117px;
+  border-radius: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+.booking_card p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #15151599;
+}
+
+.booking_card h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #151515;
+}
+
+.booking_reqs {
+  margin-top: 16px;
+}
+.booking_reqs p {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.booking_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_btns p {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.big {
+  width: 381px;
+}
+
+.booking button {
+  width: 233px;
+  height: 80px;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  background: #656293;
+
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+  cursor: pointer;
+  &:active {
+    background: #444166;
+  }
+}
+
+.jet_title {
+  text-align: center;
+}
+
+.jet_flex {
+  align-items: center;
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+}
+
+.jet_section {
+  padding-bottom: 100px;
+  font-family: Poppins;
+  padding-top: 70px;
+}
+
+.jet_flex h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.jet_flex p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #15151599;
+}
+
+.private_jet {
+  position: relative;
+}
+.rect_one {
+  position: absolute;
+
+  z-index: -1;
+  top: 30px;
+  left: -100px;
+}
+
+.section_jet {
+  padding-top: 100px;
+}
+.infotext p {
+  width: 463px;
+  color: gray;
+}
+.infoflex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.info_img {
+  position: relative;
+
+  z-index: 1;
+}
+
+.rectangle {
+  position: absolute;
+  left: 1165px;
+  top: -60px;
+}
+.card {
+  width: 370px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.airgrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 83px;
+}
+.card p {
+  color: gray;
+}
+/* .charset{
+    margin-left: 165px;
+} */
+.title_jet {
+  text-align: center;
+  margin-bottom: 68px;
+}
+.container_two {
+  position: relative;
+  max-width: 1232px;
+  margin: 0 auto;
+  font-family: poppins;
+}
+
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 1.5em;
+    }
+    .private-jet-intro,
+    .private-jet-specs,
+    .luxury-charters,
+    .membership-section {
+        padding: 40px 15px;
+    }
+    .specs-grid-container {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных */
+    }
+    .center-jet-image {
+        margin-bottom: 20px;
+    }
+    .spec-card {
+        padding: 20px;
+    }
+    .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+    .icon-circle i {
+        font-size: 1.8em;
+    }
+    .charter-card {
+        width: 90%; /* Одна карточка в ряд на мобильных */
+        max-width: unset;
+    }
+    .membership-card {
+        width: 90%;
+        padding: 20px;
+    }
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+    .price {
+        font-size: 2em;
+    }
+}
+
+.main-content {
+    padding-top: 50px; /* Отступ сверху для контента */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 60px;
+    color: #333;
+ /* Отступы для заголовка на маленьких экранах */
+}
+
+/* Секция "Private Jet For Business & Leisure Purposes" */
+.private-jet-intro {
+    background: linear-gradient(to bottom, #e0f2f7, #d0eff7); /* Градиентный фон */
+    padding: 60px 20px;
+    margin-bottom: 80px;
+}
+
+.intro-block {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 60px; /* Отступ между блоками */
+    background-color: #fff; /* Фон для блоков, если нужен */
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* Для border-radius на изображениях */
+}
+
+.intro-block.reverse-layout {
+    flex-direction: row-reverse; /* Меняем порядок для второго блока */
+}
+
+.intro-block .image-wrapper {
+    flex: 1;
+    min-width: 300px; /* Минимальная ширина для изображения */
+    overflow: hidden; /* Для округления углов изображения */
+}
+
+.intro-block .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполнение контейнера без искажений */
+    display: block;
+}
+
+.intro-block .text-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.intro-block .text-content h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.intro-block .text-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Секция "Private Jet Performance And Specifications" */
+.private-jet-specs {
+    padding: 60px 20px;
+    background-color: #fff; /* Белый фон для этой секции */
+}
+
+.specs-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    grid-template-rows: auto auto; /* 2 ряда */
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center; /* Центрирование элементов по вертикали */
+    justify-items: center; /* Центрирование элементов по горизонтали */
+}
+
+.spec-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; /* Чтобы карточки были одинаковой высоты */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #e0f2f7; /* Светло-голубой фон для круга */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.icon-circle i {
+    font-size: 2.2em;
+    color: #5b428d; /* Фиолетовый цвет иконки */
+}
+
+.spec-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.spec-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.center-jet-image {
+    grid-column: 2 / 3; /* Разместить по центру во второй колонке */
+    grid-row: 1 / 3; /* Занять оба ряда */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-jet-image img {
+    max-width: 200px; /* Размер изображения самолета */
+    height: auto;
+    display: block;
+}
+
+/* Адаптивность */
+@media (max-width: 992px) {
+    .intro-block {
+        flex-direction: column; /* На планшетах блоки становятся колонками */
+    }
+    .intro-block.reverse-layout {
+        flex-direction: column; /* Также колонками */
+    }
+    .intro-block .text-content {
+        padding: 30px;
+    }
+    .specs-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на планшетах */
+        grid-template-rows: auto; /* Автоматические ряды */
+    }
+    .center-jet-image {
+        grid-column: 1 / -1; /* Занять всю ширину на планшетах */
+        grid-row: auto; /* Позволить ему быть в любом ряду */
+        order: -1; /* Поместить его в начало или середину при необходимости */
+        margin-bottom: 30px;
+    }
+    .spec-card {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.8em;
+        margin-bottom: 40px;
+    }
+    .intro-block .image-wrapper,
+    .intro-block .text-content {
+        min-width: unset; /* Сбросить минимальную ширину */
+        width: 100%; /* Полная ширина для изображений и текста */
+    }
+}
+
+@media (max-width: 600px) {
+    .private-jet-intro,
+    .private-jet-specs {
+        padding: 40px 15px;
+    }
+    .section-title {
+        font-size: 1.5em;
+    }
+    .specs-grid-container {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных */
+    }
+    .center-jet-image {
+        margin-bottom: 20px;
+    }
+    .spec-card {
+        padding: 20px;
+    }
+    .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+    .icon-circle i {
+        font-size: 1.8em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif; /* Можно подобрать более подходящий шрифт, если известно */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Светлый фон всей страницы */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Чтобы футер всегда был внизу */
+    color: #333;
+    line-height: 1.6;
+}
+
+.main-content {
+    flex-grow: 1; /* Позволяет контенту занимать доступное пространство */
+    padding-bottom: 50px; /* Отступ перед футером */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5em; /* Можно настроить размер */
+    margin-top: 60px;
+    margin-bottom: 60px; /* Отступ после заголовка */
+    color: #333;
+    padding: 0 20px;
+    font-weight: bold; /* Заголовки кажутся жирными */
+}
+
+/* Секция: Private Jet For Business & Leisure Purposes */
+.private-jet-intro {
+    background: linear-gradient(to bottom, #e0f2f7, #d0eff7); /* Градиентный фон секции */
+    padding: 60px 20px;
+    margin-bottom: 80px;
+}
+
+.intro-block {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 60px; /* Отступ между блоками внутри секции */
+    background-color: #fff; /* Белый фон для блоков с текстом и изображением */
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* Для корректного отображения border-radius */
+}
+
+.intro-block.reverse-layout {
+    flex-direction: row-reverse; /* Меняем порядок для второго блока */
+}
+
+.intro-block .image-wrapper {
+    flex: 1;
+    min-width: 350px; /* Минимальная ширина для изображения, чтобы оно не было слишком маленьким */
+    height: 400px; /* Фиксированная высота для изображений в этой секции */
+    overflow: hidden;
+}
+
+.intro-block .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполнение контейнера без искажений */
+    display: block;
+}
+
+.intro-block .text-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.intro-block .text-content h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.intro-block .text-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Секция: Private Jet Performance And Specifications */
+.private-jet-specs {
+    padding: 60px 20px;
+    background-color: #fff; /* Белый фон для этой секции */
+    margin-bottom: 80px;
+}
+
+.specs-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    grid-template-rows: auto auto; /* 2 ряда */
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.spec-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; /* Чтобы карточки были одинаковой высоты */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #e0f2f7; /* Светло-голубой фон для круга */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.icon-circle i {
+    font-size: 2.2em;
+    color: #5b428d; /* Фиолетовый цвет иконки */
+}
+
+.spec-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.spec-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.center-jet-image {
+    grid-column: 2 / 3; /* Разместить по центру во второй колонке */
+    grid-row: 1 / 3; /* Занять оба ряда */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-jet-image img {
+    max-width: 200px; /* Размер изображения самолета */
+    height: auto;
+    display: block;
+}
+
+/* Секция: Luxury Class Charters */
+.luxury-charters {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 80px; /* Отступ от следующей секции */
+}
+
+.charter-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.charter-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    width: 220px; /* Фиксированная ширина карточки */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.charter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.charter-card img {
+    width: 100%;
+    height: 150px; /* Фиксированная высота изображения */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.charter-card h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Секция: Enjoy Our Membership (тарифные планы) */
+.membership-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.membership-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membership-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 300px; /* Фиксированная ширина карточки */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяет контент по высоте */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 480px; /* Минимальная высота, чтобы все карточки были одинаковыми */
+}
+
+.membership-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-header h3 {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    flex-grow: 1; /* Позволяет списку заполнять доступное пространство */
+}
+
+.features-list li {
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.features-list li i {
+    color: #4CAF50; /* Цвет галочки */
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+.features-list li.disabled-feature i {
+    color: #ccc; /* Более бледный цвет для "Нет" */
+}
+
+.price {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.price .per-month {
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #666;
+}
+
+.choose-button {
+    background-color: #5b428d; /* Фиолетовый цвет кнопки */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.choose-button:hover {
+    background-color: #4a3372;
+}
+
+/* Стили для карточки "Business" (выделенная) */
+.business-card {
+    background-color: #5b428d; /* Темно-фиолетовый фон */
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02); /* Немного увеличить */
+}
+
+.business-card .card-header h2,
+.business-card .card-header h3,
+.business-card .features-list li,
+.business-card .price,
+.business-card .price .per-month {
+    color: white;
+}
+
+.business-card .features-list li i {
+    color: #7ed957; /* Ярче галочка для выделенной карточки */
+}
+
+.business-card .features-list li.disabled-feature i {
+    color: #a894c7; /* Бледнее для "Нет" на темном фоне */
+}
+
+.business-card .choose-button {
+    background-color: #fff; /* Белая кнопка */
+    color: #5b428d; /* Фиолетовый текст */
+}
+
+.business-card .choose-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Футер */
+.footer {
+    background-color: #5b428d; /* Темно-фиолетовый фон футера */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: auto; /* Прижимает футер к низу */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo {
+    font-family: 'Montserrat', sans-serif; /* Для стилизации текста AIR */
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px; /* Для мобильных */
+}
+
+.footer-nav {
+    margin-bottom: 15px; /* Для мобильных */
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ccc;
+}
+
+.copyright {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* Адаптивность (Media Queries) */
+@media (max-width: 992px) {
+    .intro-block {
+        flex-direction: column; /* Блоки становятся колонками на планшетах */
+    }
+    .intro-block.reverse-layout {
+        flex-direction: column; /* Также колонками */
+    }
+    .intro-block .text-content {
+        padding: 30px;
+    }
+    .specs-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на планшетах */
+        grid-template-rows: auto;
+    }
+    .center-jet-image {
+        grid-column: 1 / -1; /* Занять всю ширину на планшетах */
+        grid-row: auto;
+        order: -1; /* Поместить его в начало */
+        margin-bottom: 30px;
+    }
+    .spec-card {
+        padding: 25px;
+    }
+    .charter-card {
+        width: 45%; /* Две карточки в ряд на планшетах */
+        max-width: 300px;
+    }
+    .membership-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .membership-card {
+        width: 80%; /* Увеличить ширину карточек на планшетах */
+        max-width: 400px;
+        min-height: unset; /* Сбросить, чтобы контент определял высоту на меньших экранах */
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2em;
+        margin-bottom: 40px;
+    }
+    .intro-block .image-wrapper,
+    .intro-block .text-content {
+        min-width: unset; /* Сбросить минимальную ширину */
+        width: 100%; /* Полная ширина для изображений и текста */
+    }
+}
+
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 1.5em;
+    }
+    .private-jet-intro,
+    .private-jet-specs,
+    .luxury-charters,
+    .membership-section {
+        padding: 40px 15px;
+    }
+    .specs-grid-container {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных */
+    }
+    .center-jet-image {
+        margin-bottom: 20px;
+    }
+    .spec-card {
+        padding: 20px;
+    }
+    .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+    .icon-circle i {
+        font-size: 1.8em;
+    }
+    .charter-card {
+        width: 90%; /* Одна карточка в ряд на мобильных */
+        max-width: unset;
+    }
+    .membership-card {
+        width: 90%;
+        padding: 20px;
+    }
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+    .price {
+        font-size: 2em;
+    }
+}
